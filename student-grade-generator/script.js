@@ -18,7 +18,7 @@ marksInputs.forEach(input => {
 
     // convert the average marks to a grade
     let grade = '';
-    if (averageMarks >= 80) {
+    if (averageMarks >= 80 <100 ) {
       grade = 'A';
     } else if (averageMarks >= 60) {
       grade = 'B';
