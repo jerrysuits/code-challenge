@@ -108,3 +108,6 @@ function grossIncome(basicSalary, ...allowances){
        document.getElementById("taxableincome").textContent = "Taxable Income:" + taxableincome
        document.getElementById("netpay").textContent = "Netpay:" + net
        }
+
+
+       
