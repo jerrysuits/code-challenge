@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Sono', sans-serif;
+  font-weight: bold;
+ 
+}
+
+body{
+  background-color: #133955 ;
+  margin-top: 130px;
+}
+
+.net{
+  color: white;
+  font-size: 39px;
+}
+
+.salary{
+  width: 300px;
+  border-radius: 30px;
+  height: 35px;
+  margin-top: 40px;
+  
+}
+
+.salary:hover{
+  cursor: pointer;
+}
+
+
+.submit{
+  background-color: rgb(89, 38, 11);
+  margin-top: 30px;
+  width: 90px;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.submit:active{
+  opacity: 0.5;
+  
+}
+

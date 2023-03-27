@@ -1,0 +1,9 @@
+/*applying general styles*/
+
+body{
+  background-color: #65647C;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium';
+  display: block;
+  text-align: center;
+}

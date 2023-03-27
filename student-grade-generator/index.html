@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDENT GRADE GENERATOR</title>
+
+<!--  Linking styles.css-->
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  
+<h1>STUDENT GRADE GENERATOR</h1>
+
+<!--Creating input boxes for names and styling-->
+
+<div>
+  <h1>Names of student</h1>
+    <input type="text" class="name1">
+    <input type="text" class="name2">
+  <br>
+</div>
+
+
+<!--Stling input boxes-->
+<style>
+  .name1{
+    width: 175px;
+    height: 24px;
+    color: #19A7CE;
+    border-radius: 40px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .name1:hover{
+    opacity: 0.7;
+    cursor: -webkit-grabbing;
+  }
+
+  .name1:active{
+    opacity: 0.4;
+  }
+  
+</style>
+
+<style>
+  .name2{
+    width: 175px;
+    height: 24px;
+    color: #19A7CE;
+    border-radius: 40px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .name2:hover{
+    opacity: 0.7;
+    cursor: -webkit-grabbing;
+  }
+
+  .name2:active{
+    opacity: 0.4;
+  }
+
+</style>
+
+<!--Creating input box for marks and styling-->
+
+<div>
+  <h2>Marks out of 100%</h2>
+<input type="number" class="marks" max="100" min="0" placeholder="Maths" >
+<br>
+<input type="number" class="marks" max="100" min="0" placeholder="Biology">
+<br>
+<input type="number" class="marks" max="100" min="0" placeholder="Chemistry">
+<br>
+<input type="number" class="marks" max="100" min="0" placeholder="Physics">
+<br>
+<input type="number" class="marks" max="100" min="0" placeholder="History">
+</div>
+
+<!--Styling marks input voices-->
+<style>
+  .marks{
+    width: 290px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.7s;
+  }
+
+  .marks:hover{
+    opacity: 0.7;
+    cursor: -webkit-grabbing;
+  }
+
+  .marks:active{
+    opacity: 0.4;
+  }
+</style>
+
+<!--input box for grade and its styling-->
+
+<div>
+  <h3>Average Grade</h3>
+  <input type="text" class="grade">
+</div>
+
+<style>
+  .grade{
+
+    width: 45px;
+    height: 18px;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+  }
+
+  .grade:hover{
+    opacity: 0.7;
+    cursor: -webkit-grabbing;
+  }
+  .grade:active{
+    opacity: 0.4;
+  }
+
+</style>
+
+  <!--Linking javascript-->
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
